@@ -1787,9 +1787,10 @@ label span.check-checkbox.active:before {
   border-radius: 25px;
   display: inline-block;
 }
+.btn.hero {margin-top: 20px;}
 .btn.secondary {
-  background: #f30c74;
-  border: 1px solid #f30c74;
+  background: #FFC723;
+  border: 1px solid #FFC723;
 }
 .btn.secondary:hover {
   color: #f30c74;
