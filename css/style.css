@@ -3545,6 +3545,7 @@ label span.check-checkbox.active:before {
 }
 .site-title img.logo-df {
   display: inline-block;
+  height: 35px;
 }
 .page-banner {
   clear: both;
@@ -3712,7 +3713,8 @@ label span.check-checkbox.active:before {
 }
 @media only screen and (min-width: 30em) {
   .header-has-slide .flex-control-paging {
-    display: block;
+    /*display: block;*/
+    display:none; /*Hides this for now*/
     position: absolute;
     top: 30%;
     right: 6%;
