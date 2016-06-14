@@ -3991,7 +3991,7 @@ label span.check-checkbox.active:before {
   margin-right: 100px;
 }
 .dl-menuwrapper button {
-  background: rgba(15, 83, 95, 0.97);
+  background: none;
   border: none;
   width: 48px;
   height: 45px;
