@@ -3546,6 +3546,7 @@ label span.check-checkbox.active:before {
 }
 .site-title img.logo-sticky {
   display: none;
+  height: 40px;
 }
 .site-title img.logo-df {
   display: inline-block;
