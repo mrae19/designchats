@@ -115,20 +115,20 @@ article.post .post-cates a,
 .timeline > li:hover .timeline-badge,
 .ht-btn-wrapper .fw-btn.fw-btn-1,
 .fw-btn.fw-btn-1 {
-    background-color: #f30c74;
+    background-color: #FFC723;
 }
 ::-webkit-scrollbar-thumb {
-    background: #f30c74;
+    background: #FFC723;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: #f30c74;
+    background: #FFC723;
     opacity: 0.5;
 }
 Mozilla based browsers::-moz-selection {
-    background-color: #f30c74;
+    background-color: #FFC723;
 }
 Works in Safari::selection {
-    background-color: #f30c74;
+    background-color: #FFC723;
 }
 #back-to-top,
 .color-primary,
@@ -153,7 +153,7 @@ section.fw-main-row .flexslider a.flex-prev,
 .fw-block-info .info-text a:hover,
 .timeline > li > .timeline-panel h4.timeline-place,
 social-link a:hover {
-    color: #f30c74;
+    color: #FFC723;
 }
 .timeline > li:hover .timeline-badge,
 .timeline > li > .timeline-badge,
@@ -167,10 +167,10 @@ table > tbody > tr > td,
 table > tfoot > tr > td,
 article.post .sticky-gim,
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price {
-    border-color: #f30c74;
+    border-color: #FFC723;
 }
 .blog-navigation.sc.sticky .main-navigation.sc {
-    box-shadow: 1px 0px 5px 0px #f30c74;
+    box-shadow: 1px 0px 5px 0px #FFC723;
 }
 /* Secondary color */
 
@@ -212,7 +212,7 @@ article.post a:hover,
 }
 .timelines-navigation a:hover,
 .timelines-navigation a.active {
-    background-color: #f30c74;
+    background-color: #FFC723;
     opacity: 1;
 }
 /* Heading color */
@@ -350,17 +350,17 @@ background-image: url(../images/bg/brand2.jpg);
 }
 
 .color-orange{
-    color: #ef6715!important; 
+    color: #ef6715!important;
 }
 
 .color-blue{
-    color: #0e7ac6!important;  
+    color: #0e7ac6!important;
 }
 .color-pink{
-    color: #f30c74!important;  
+    color: #FFC723!important;
 }
 .color-grey{
-    color: #727272!important;  
+    color: #727272!important;
 }
 
 .font-italic{
@@ -368,7 +368,7 @@ background-image: url(../images/bg/brand2.jpg);
 }
 
 .droid-font{
-    font-family: Droid;   
+    font-family: Droid;
 }
 
 .font-14px{
@@ -392,7 +392,7 @@ background-image: url(../images/bg/brand2.jpg);
 }
 
 .our-speaker span{
-    font-size: 32px; 
+    font-size: 32px;
     font-family: Roboto Bold;
 }
 
@@ -422,18 +422,18 @@ background-image: url(../images/bg/brand2.jpg);
 }
 
 .event-scheadule h3 span{
-    font-family: 'Roboto Bold'; 
+    font-family: 'Roboto Bold';
     font-size: 30px;
     color: #040404;
 }
 
 .text-head{
-   color: #000000; 
+   color: #000000;
     font-family: 'Roboto Bold';
 }
 
 .text-desc{
-   font-size: 14px; 
+   font-size: 14px;
     font-family: Droid;
     color: #707070;
 }
@@ -441,11 +441,11 @@ background-image: url(../images/bg/brand2.jpg);
 	padding-top:0px !important;
 	padding-bottom:0px !important;
 	margin-top:0px !important;
-	margin-bottom:0px !important; 
+	margin-bottom:0px !important;
 }
 .sponsor-text-007{
-	font-size: 24px; 
-	font-family: Droid Italic; 
+	font-size: 24px;
+	font-family: Droid Italic;
 	color: #ededed;
 }
 .textblock-shortcode-009{
@@ -500,9 +500,3 @@ background-image: url(../images/bg/brand2.jpg);
 .field-text {
     padding: 10px 0 !important;
 }
-
-
-
-
-
-
