@@ -1637,7 +1637,7 @@ article.page blockquote {
   top: -50%;
 }
 .fw-main-row.has-parallax .fw-main-row-overlay.has-color {
-  background-image: url("../images/bg-gradiant.png");
+  background-image: url("../images/blog-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
