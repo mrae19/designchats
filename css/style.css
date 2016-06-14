@@ -1796,7 +1796,7 @@ label span.check-checkbox.active:before {
   border: 1px solid #FFC723;
 }
 .btn.secondary:hover {
-  color: #f30c74;
+  color: #FFC723;
   background-color: transparent;
 }
 .btn.transparent {
