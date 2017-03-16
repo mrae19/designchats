@@ -5539,3 +5539,9 @@ ol {
   padding-bottom: 75%;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Temporary -- Remove when adding Venue details back in */
+#venue {
+  display: none;
+}
