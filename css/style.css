@@ -5549,3 +5549,22 @@ ol {
 #countdown {
   display: none;
 }
+
+.comingsoon {
+  margin: 10px auto;
+  background-color: white;
+  margin-top: 15%;
+  float: none;
+  width: 270px;
+  padding: 60px;
+  box-shadow: 0px 4px 10px rgba(37, 37, 37, 0.5);
+  border-radius: 5px;
+}
+
+.comingsoon img {
+  margin-bottom: 20px;
+}
+
+.body {
+  background-color: #41aaf1;
+}
