@@ -1,3 +1,4 @@
+
 @media (min-width: 1200px) {
   .tp--col-lg-vertical-align {
     font-size: 0;
@@ -104,7 +105,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #7d8a93;
 }
@@ -118,7 +119,7 @@ ul li, ol li {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat-bold', sans-serif;
   margin-bottom: 1em;
   color: #38454e;
   line-height: 1.5;
@@ -286,6 +287,12 @@ blockquote.blockquote-large {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   padding: 10px 25px;
+  background: #1E64EB;
+  background: -webkit-linear-gradient(#1E64EB, #164BAB);
+  background: -o-linear-gradient(#1E64EB, #164BAB);
+  background: -moz-linear-gradient(#1E64EB, #164BAB);
+  background: linear-gradient(#1E64EB, #164BAB);
+  color: white;
 }
 
 .btn:focus {
@@ -428,8 +435,8 @@ blockquote.blockquote-large {
 }
 
 .tp--header .logo a img {
-  max-width: 80px;
-  vertical-align: inherit;
+  max-width: 140px;
+  vertical-align: middle;
 }
 
 .tp--header .logo a img.logo-dark {
@@ -1986,7 +1993,7 @@ blockquote.blockquote-large {
 }
 
 .tp--inner .tp--inner-header {
-  background: #bcbcbc;
+/*  background: #bcbcbc;*/
   padding: 5em 0;
   position: relative;
 }
