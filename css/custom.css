@@ -1,11 +1,13 @@
 .home-hero {
 	background-size: 100% !important;
-	background-repeat: no-repeat !important;
-	height: 560px !important;
-	background: url('images/bg/home-hero.png') !important;
+    background-repeat: no-repeat !important;
+    height: 100vh !important;
+    background-position: bottom !important;
 }
-
-.home-title { text-align: left; }
+.home-title { 
+	text-align: left; 
+	margin-top: 40px;
+}
 
 .sub-header {
 	margin-top: 0 !important;
