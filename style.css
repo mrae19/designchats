@@ -2127,7 +2127,11 @@ a.dashed {
 }
 
 .reveal--secondary:before {
-  background-color: #1E64EB;
+  background-color: #F5BD56;
+}
+
+.reveal--pink:before {
+  background-color: #FF00BF;
 }
 
 .reveal__background {
