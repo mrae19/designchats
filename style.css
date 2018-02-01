@@ -3438,6 +3438,12 @@ a.dashed {
   background-position: bottom right;
 }
 
+@media only screen and (max-width: 600px) {
+  .site-footer .widget-area {
+    background-size: 250%;
+  }
+}
+
 .site-footer .widget-area a:not(:hover) {
   color: inherit;
 }
