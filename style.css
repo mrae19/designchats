@@ -1925,7 +1925,7 @@ a.dashed {
   left: 50%;
   width: auto;
   max-width: none;
-  height: 100%;
+  height: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
 }
