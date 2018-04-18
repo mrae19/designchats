@@ -1739,6 +1739,27 @@ body {
   overflow-x: hidden;
 }
 
+#clearpath {
+  background-color: black !important;
+  color: #f5f5f5;
+}
+
+#clearpath .site-header__wrap {
+  background-color: black !important;
+}
+
+#clearpath .site-footer .widget-area {
+  background: none !important;
+}
+
+#clearpath .sub-head, a.sub-head {
+  color: #f5f5f5;
+}
+
+#clearpath .color--primary {
+  color: #FFD219;
+}
+
 figure {
   margin: 0;
 }
@@ -3600,6 +3621,11 @@ p {
   .display-one {
     font-size: 112px;
     line-height: 120px;
+    letter-spacing: -0.04em;
+  }
+  .display-two {
+    font-size: 92px;
+    line-height: 100px;
     letter-spacing: -0.04em;
   }
 }
