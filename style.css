@@ -1760,6 +1760,23 @@ body {
   color: #FFD219;
 }
 
+#clearpath .cta--dark:before {
+  background-color: #FFD219;
+}
+
+#clearpath .btn--primary {
+  background-color: black;
+  color: white;
+}
+
+#clearpath .btn--secondary {
+  background-color: #FFD219;
+}
+
+#clearpath .dashed--hover:not(.dashed--vertical):hover:after, a.dashed:not(.dashed--vertical):hover:after {
+  background-color: rgba(255, 210, 25, 0.4) !important;
+}
+
 figure {
   margin: 0;
 }
