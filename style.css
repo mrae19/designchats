@@ -1755,6 +1755,21 @@ body {
   margin-top: 5px;
 }
 
+#kitchener .site-header__wrap {
+  background-color: transparent !important;
+  color: white;
+}
+
+.kitchener-hero {
+  background: url(assets/media/kw.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.intro-para {
+  color: white;
+}
+
 /*Clearpath Overrides*/
 #clearpath {
   background-color: black !important;
