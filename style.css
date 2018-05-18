@@ -1783,6 +1783,10 @@ body {
   font-family: Dosis;
 }
 
+#draplinBreakfast h1.dosis {
+  letter-spacing: 3px;
+}
+
 #draplinBreakfast {
   background-color: #3E007F !important;
   color: #f5f5f5;
