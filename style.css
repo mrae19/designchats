@@ -1739,6 +1739,22 @@ body {
   overflow-x: hidden;
 }
 
+/*Announcement Bar*/
+.announcement {
+    width: 100%;
+    background-color: #3E007F;
+    height: 50px;
+    color: white;
+    padding: 12px 40px;
+    font-family: Dosis;
+    text-align: center;
+}
+
+.announcement-logo {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
 /*Clearpath Overrides*/
 #clearpath {
   background-color: black !important;
