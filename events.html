@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
     <link rel="stylesheet" href="style-custom.css" type="text/css" media="all">
   </head>
-  <body class="home">
+  <body class="home" id="events">
     <div class="site" id="page">
       <header class="site-header" id="masthead">
         <div class="site-header__wrap">
@@ -47,7 +47,7 @@
                   <div class="site-header__branding">
                     <div class="site-branding ">
                       <a href="index.html">
-                        <img src="assets/media/logo-whitebg.svg" alt="" width="232" height="144"/>
+                        <img src="assets/media/logo-darkbg.svg" alt="" width="232" height="144"/>
                       </a>
                     </div>
                   </div>
@@ -72,194 +72,128 @@
           </div>
         </div>
       </header>
+      <!-- End Header -->
       <div class="site-content" id="content">
         <div class="content-area" id="primary">
           <main class="site-main" id="main">
-            <section class="section section--singular">
+            <section class="section section--singular background-color--code-background">
               <div class="container">
-                <div class="row">
+                <div class="row in-view">
                   <div class="col-12 col-xl-10 offset-xl-1">
-                    <header class="page-header">
-                      <h1 class="page-title">What's Happenin'</h1>
-                      <h5 class="page-subtitle"><span>Get the scoop on what's happening in the local design community.</span></h5>
+                    <header class="page-header color--body-lighten in-view__child in-view__child--fadein">
+                      <h1 class="page-title">Upcoming Events</h1>
+                      <h5 class="page-subtitle"><span>Community events in Kitchener and London Ontario.</span></h5>
                     </header>
-                    
-                    <section class="section" id="kitchener">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-12 col-xl-5 in-view">
-                            <div class="blog-list in-view__child in-view__child--fadein">
-                              <div class="community-describe">
-                                <h4>Kitchener-Waterloo</h4>
-                                <p>The KW region (and Cambridge) is highly known for it's innovation and engineering talent. However, side by side with that engineering talent is a thriving design community centered around the UX practice. With companies like Shopify, Open Text, Square, Google and more in town, the design community has been growing steadily.</p>
-                                <p>Catch events put on by DesignChats, Brew Over Design, Shopify Sessions and UX Waterloo.</p>
-                              </div>
-                              <!-- <div class="blog-list__cta text-center text-xl-right"><a class="btn btn--primary" href="blog.html">See more stories</a></div> -->
-                            </div>
+                    <div class="masonry indexed-list row">
+                      <!-- Standard Type -->
+                      <!-- <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__wrap indexed-list__in-view">
+                          <div class="indexed-list__wrap__thumb"><a href="/draplin">
+                              <figure class="lazyload lazyload--el" style="padding-top: 66.67%;" data-bg="assets/media/draplin2.jpg"></figure></a></div>
+                          <div class="indexed-list__wrap__copy"><span class="indexed-list__wrap__info sub-head-2"><span>Marketing — Apr 29</span></span>
+                            <h2 class="indexed-list__wrap__title"> <a href="post.html">DesignChats Breakfast with Draplin</a></h2>
+                            <p class="indexed-list__wrap__desc">However in the end, we are self-perceiving, self-inventing, locked-in mirages that are little miracles of self-reference...</p>
+                            <p class="indexed-list__wrap__link"><a href="post.html">Read more</a></p>
                           </div>
-                          <div  class="col-12 col-xl-6 offset-xl-1 in-view">
-                            <div class="reveal reveal--right">
-                              <!-- <h3 class="in-view__child in-view__child--fadein">What's Happening</h3> -->
-                              <div class="reveal__copy in-view__child in-view__child--fadein">
-                                <div class="tabs" role="tablist">
-                                  <div class="tabs__navs"><a class="tabs__nav tabs__nav--active" href="#kitchener" data-tab="day-one" tabindex="0" role="tab" aria-selected="true">May</a><!-- <a class="tabs__nav" href="#kitchener" data-tab="day-two" tabindex="-1" role="tab" aria-selected="false">June</a> --></div>
-                                  <div class="tabs__content">
-                                    <div class="tabs__item tabs__item--active" data-tab="day-one" tabindex="0" role="tab" aria-selected="true">
-                                      <!-- <div class="row clipcard">
-                                        <div class="col-12 col-md-2 col-lg-3 color--primary">
-                                          <p class="clipcard__head">13 FEB - 900AM</p>
-                                        </div>
-                                        <div class="col-12 col-md-10 col-lg-9">
-                                          <div class="clipcard__body"><a class="clipcard__link" href="https://www.meetup.com/designchats/events/247391035/"><span class="sr-only">See more</span></a>
-                                            <img src="assets/media/logo-whitebg.svg" alt="" width="80">
-                                            <p class="clipcard__title">DesignBreakfast</p><span class="clipcard__subtitle"><span class="sub-head">The Bauer Bakery</span></span>
-                                          </div>
-                                        </div>
-                                      </div> -->
+                        </div>
+                      </article> -->
 
-                                      <!-- Event #1 -->
-                                      <!-- <div class="row clipcard">
-                                        <div class="col-12 col-md-2 col-lg-3">
-                                          <p class="clipcard__head">May 1 @6:30pm</p>
-                                        </div>
-                                        <div class="col-12 col-md-10 col-lg-9">
-                                          <div class="clipcard__body"><a class="clipcard__link" href="https://www.meetup.com/designchats/events/249708316/"><span class="sr-only"></span></a>
-                                            <img src="assets/media/logo-whitebg.svg" alt="" width="80">
-                                            <p class="clipcard__title">BrewChats #2</p><span class="clipcard__subtitle"><span class="sub-head">Abe Erb: @The Tannery</span></span>
-                                          </div>
-                                        </div>
-                                      </div> -->
-                                    
-                                      <!-- Event #2 -->
-                                      <div class="row clipcard">
-                                        <div class="col-12 col-md-2 col-lg-3">
-                                          <p class="clipcard__head">May 31 - 6:30pm</p>
-                                        </div>
-                                        <div class="col-12 col-md-10 col-lg-9">
-                                          <div class="clipcard__body"><a class="clipcard__link" href="/clearpath"><span class="sr-only">See more</span></a>
-                                            <img src="assets/media/logo-whitebg.svg" alt="" width="80">
-                                            <p class="clipcard__title">Inside the Design Process @Clearpath</p><span class="clipcard__subtitle"><span class="sub-head">Host: Clearpath Robotics</span></span>
-                                          </div>
-                                        </div>
-                                      </div>
+                      <!-- Full Image - Main Use -->
 
-                                    </div>
-                                    <!-- Tab 2 -->
-                                    <!-- <div class="tabs__item" data-tab="day-two" tabindex="-1" role="tab" aria-selected="false">
+                      <!-- Explode Conference -->
+                      <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__box indexed-list__in-view">
+                          <div class="indexed-list__box__background lazyload lazyload--el" data-bg="assets/media/explodevenue.jpg"></div>
+                          <div class="indexed-list__box__table">
+                            <div class="indexed-list__box__cell left-align">
+                              <img src="assets/media/explodeconf.svg" alt="" width="80">
+                              <h2 class="indexed-list__box__title"> <a href="http://explodeconf.com">Explode Conf.</a></h2>
+                              <span class="sub-head indexed-list__box__info sub-head-2"><span>May 24 - LONDON, ON</span></span>
 
-                                      <div class="row clipcard">
-                                        <div class="col-12 col-md-2 col-lg-3">
-                                          <p class="clipcard__head">June 5 - 9AM</p>
-                                        </div>
-                                        <div class="col-12 col-md-10 col-lg-9">
-                                          <div class="clipcard__body"><a class="clipcard__link" href="https://www.meetup.com/designchats/events/249708316/"><span class="sr-only"></span></a>
-                                            <img src="assets/media/logo-whitebg.svg" alt="" width="80">
-                                            <p class="clipcard__title">DesignChats Breakfast</p><span class="clipcard__subtitle"><span class="sub-head">TBD</span></span>
-                                          </div>
-                                        </div>
-                                      </div> -->
-
-                                      
-                                     <!-- Add more events here -->
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              <a class="btn btn--primary event-btn" href="http://explodeconf.com">explodeconf.com</a>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </section>
+                      </article>
+                      <!-- Draplin Breakfast -->
+                      <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__box indexed-list__in-view">
+                          <div class="indexed-list__box__background lazyload lazyload--el" data-bg="assets/media/draplin.jpeg"></div>
+                          <div class="indexed-list__box__table">
+                            <div class="indexed-list__box__cell left-align">
+                              <img src="assets/media/draplinBreaky.svg" alt="" width="80">
+                              <h2 class="indexed-list__box__title"> <a href="/draplin">Breakfast with Draplin</a></h2>
+                              <span class="sub-head indexed-list__box__info sub-head-2"><span>May 25 - LONDON, ON</span></span>
 
-                    <section id="london">
-                      <div class="container">
-                          <div class="row">
-                            <div  class="col-12 col-xl-5 in-view">
-                              <div class="blog-list in-view__child in-view__child--fadein">
-                                <div class="community-describe">
-                                  <h4>London</h4>
-                                  <p>Whether you want to catch breakfast at Edgar and Joes with the DesignChats London crew, or attend an event with Ladies that UX London - there are many options for engaging with the community in London. If you're looking to make connections in web design, print or illustrations, London's Agency-rich community is a great place to be.</p>
-                                </div>
-                                <!-- <div class="blog-list__cta text-center text-xl-right"><a class="btn btn--primary" href="blog.html">See more stories</a></div> -->
-                              </div>
-                            </div>
-                            <div class="col-12 col-xl-6 offset-xl-1 in-view">
-                              <div class="reveal reveal--right">
-                                <!-- <h3 class="in-view__child in-view__child--fadein">What's Happening</h3> -->
-                                <div class="reveal__copy in-view__child in-view__child--fadein">
-                                  <div class="tabs" role="tablist">
-                                    <div class="tabs__navs"><a class="tabs__nav tabs__nav--active" href="#london" data-tab="day-one" tabindex="0" role="tab" aria-selected="true">May</a><!-- <a class="tabs__nav" href="#london" data-tab="day-two" tabindex="-1" role="tab" aria-selected="false">April</a> --></div>
-                                    <div class="tabs__content">
-                                      <div class="tabs__item tabs__item--active" data-tab="day-one" tabindex="0" role="tab" aria-selected="true">
-                                      	
-                                        
-
-                                        <!-- Event -->
-
-                                        <div class="row clipcard">
-                                          <div class="col-12 col-md-2 col-lg-3">
-                                            <p class="clipcard__head">May 24 - All Day</p>
-                                          </div>
-                                          <div class="col-12 col-md-10 col-lg-9">
-                                            <div class="clipcard__body"><a class="clipcard__link" href="https://explodeconf.com/"><span class="sr-only">See more</span></a>
-                                              <!-- <img src="assets/media/logo-whitebg.svg" alt="" width="80"> -->
-                                              <p class="clipcard__title">Explode Conf.</p><span class="clipcard__subtitle"><span class="sub-head">Wolf Performance Hall</span></span>
-                                            </div>
-                                          </div>
-                                        </div>
-
-                                        <div class="row clipcard">
-                                          <div class="col-12 col-md-2 col-lg-3">
-                                            <p class="clipcard__head">May 25 - 8AM</p>
-                                          </div>
-                                          <div class="col-12 col-md-10 col-lg-9">
-                                            <div class="clipcard__body"><a class="clipcard__link" href="/draplin"><span class="sr-only">Get your Ticket Here</span></a>
-                                              <img src="assets/media/dcexplode.svg" alt="" width="80">
-                                              <p class="clipcard__title">Breakfast with Draplin</p><span class="clipcard__subtitle"><span class="sub-head">Race Roster HQ</span></span>
-                                            </div>
-                                          </div>
-                                        </div>
-
-                                        <!-- NO EVENTS SECTION -->
-                                        <!-- <div class="row clipcard">
-                                          <div class="col-12 col-md-2 col-lg-3">
-                                            <p class="clipcard__head">TBD</p>
-                                          </div>
-                                          <div class="col-12 col-md-10 col-lg-9">
-                                            <div class="clipcard__body"><a class="clipcard__link" href="#"><span class="sr-only">See more</span></a>
-                                              <p class="clipcard__title"></p><span class="clipcard__subtitle"><span class="sub-head">NO EVENTS CURRENTLY SCHEDULED</span></span>
-                                            </div>
-                                          </div>
-                                        </div> -->
-                                        
-                                      </div>
-                                      <!-- Tab 2 -->
-                                      <div class="tabs__item" data-tab="day-two" tabindex="-1" role="tab" aria-selected="false">
-                                        
-                                          <!--  Drop Event Here -->
-
-                                       <!-- Add more events here -->
-                                      <!-- </div> -->
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              <a class="btn btn--secondary event-btn" href="/draplin">Get a Ticket</a>
                             </div>
                           </div>
                         </div>
-                    </section>
-                     
+                      </article>
+
+                      <!-- Clearpath Event -->
+                      <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__box indexed-list__in-view">
+                          <div class="indexed-list__box__background lazyload lazyload--el" data-bg="assets/media/clearpathimg.png"></div>
+                          <div class="indexed-list__box__table">
+                            <div class="indexed-list__box__cell left-align">
+                              <img src="assets/media/logo-darkbg.svg" alt="" width="80">
+                              <h2 class="indexed-list__box__title"> <a href="/clearpath">Design at Clearpath</a></h2>
+                              <span class="sub-head indexed-list__box__info sub-head-2"><span>May 31 - KITCHENER, ON</span></span>
+
+                              <a class="btn btn--secondary event-btn" href="/clearpath">Learn More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <!-- June Breakfast (Not Posted Yet) -->
+                      <!-- <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__box indexed-list__in-view">
+                          <div class="indexed-list__box__background lazyload lazyload--el" data-bg="assets/media/breakfastimg.png"></div>
+                          <div class="indexed-list__box__table">
+                            <div class="indexed-list__box__cell left-align">
+                              <img src="assets/media/logo-darkbg.svg" alt="" width="80">
+                              <h2 class="indexed-list__box__title"> <a href="post.html">June Breakfast</a></h2>
+                              <span class="sub-head indexed-list__box__info sub-head-2"><span>June 5 - KITCHENER, ON</span></span>
+
+                              <a class="btn btn--secondary event-btn" href="draplin.html">Learn More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </article> -->
+
+                      <!-- Article with Carousel -->
+                      <!-- <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__wrap indexed-list__in-view">
+                          <div class="indexed-list__wrap__thumb">
+                            <div class="indexed-list__wrap__carousel">
+                              <div class="carousel">
+                                <div class="carousel__frame">
+                                  <div class="carousel__item">
+                                    <figure class="lazyload lazyload--el" data-bg="assets/media/stock/placeholder-1920x1280.jpg"></figure>
+                                  </div>
+                                  <div class="carousel__item">
+                                    <figure class="lazyload lazyload--el" data-bg="assets/media/stock/placeholder-1920x1280.jpg"></figure>
+                                  </div>
+                                  <div class="carousel__item">
+                                    <figure class="lazyload lazyload--el" data-bg="assets/media/stock/placeholder-1920x1280.jpg"></figure>
+                                  </div>
+                                </div>
+                                <div class="carousel__dots in-view"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="indexed-list__wrap__copy"><span class="indexed-list__wrap__info sub-head-2"><span>Deepmind — Mar 12</span></span>
+                            <h2 class="indexed-list__wrap__title"> <a href="post.html">Deep adversarial learning is finally ready</a></h2>
+                            <p class="indexed-list__wrap__desc">However in the end, we are self-perceiving, self-inventing, locked-in mirages that are little miracles of self-reference...</p>
+                            <p class="indexed-list__wrap__link"><a href="post.html">Read more</a></p>
+                          </div>
+                        </div>
+                      </article> -->
+                      
+                    </div>
                   </div>
-                </div>
-              </div>
-            </section>
-          </main>
-        </div>
-      </div>
-      <section id="cta">
-              <div class="cta cta--darken cta--dark in-view" data-offset="90%">
-                <div class="cta__copy text-center">
-                  <div class="d-inline-block margin-top margin-bottom in-view__child in-view__child--scalein"><a class="btn btn--secondary" href="https://docs.google.com/forms/d/1RArsujHPaIWG0HFfom-gi45JNFObHhPM_PCDNp8AEmk/edit">Join the Slack community today</a></div>
                 </div>
               </div>
             </section>
@@ -338,8 +272,7 @@
         <div class="site-info">
           <div class="container">
             <div class="row in-view">
-              <div class="col-12 col-md-6 col-xl-5 offset-xl-1"><a class="sub-head" href="http://twitter.com/mrae19">
-                   With <i class="fa fa-heart color--pink"></i><i class="fa fa-laptop color--primary"></i><i class="fa fa-paint-brush color--secondary"></i> by @mrae19</a></div>
+              <div class="col-12 col-md-6 col-xl-5 offset-xl-1"><a class="sub-head" href="/">© 2018 DesignChats</a></div>
               <div class="col-12 col-md-6 col-xl-5 text-md-right"><a class="sub-head dashed dashed--reverse in-view__child in-view__child--in" href="mailto:hello@designchats.com">Bring DesignChats to your Community</a></div>
             </div>
           </div>
@@ -352,7 +285,7 @@
           <div class="site-sidenav__branding">
             <div class="site-branding">
               <a href="index.html">
-                <img src="assets/media/logo-whitebg.svg" alt="" width="232" height="144"/>
+                <img src="assets/media/logo.svg" alt="" width="232" height="144"/>
               </a>
             </div>
           </div>
@@ -361,13 +294,17 @@
               <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
                 <div class="menu-sidenav-menu-container">
                   <ul class="menu" id="sidenav-menu">
-                    <li> <a href="events.html">Events</a></li>
+                    <li> <a href="index.html#speakers">Speakers</a></li>
+                    <li> <a href="index.html#registration">Registration</a></li>
+                    <li> <a href="blog.html">Blog</a></li>
+                    <li> <a href="post.html">Post</a></li>
+                    <li> <a href="page.html">Page</a></li>
                   </ul>
                 </div>
               </nav>
             </div>
           </div>
-          <div class="site-sidenav__cat hidden-md-up"><a class="btn btn--secondary" href="https://docs.google.com/forms/d/1RArsujHPaIWG0HFfom-gi45JNFObHhPM_PCDNp8AEmk/edit">Join the Slack Group</a></div>
+          <div class="site-sidenav__cat hidden-md-up"><a class="btn btn--secondary" href="#">Get tickets</a></div>
         </div>
       </div>
     </div>

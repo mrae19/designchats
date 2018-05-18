@@ -1829,6 +1829,19 @@ body {
   background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
+/*Events*/
+#events .site-header__wrap {
+  background-color: #282C34 !important;
+}
+
+#events .site-header__nav ul {
+  color: white;
+}
+
+#events .site-header__nav ul > li > a:after {
+  background-color: white;
+}
+
 figure {
   margin: 0;
 }
@@ -4772,3 +4785,19 @@ div.mce_inline_error {
 
 /* Media query
    ========================================================================== */
+
+
+
+/*Custom Additions*/
+
+.event-btn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;  
+}
+
+/*Events Page Overrides*/
+.left-align {
+  text-align: left;
+}
