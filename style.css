@@ -3567,7 +3567,7 @@ a.dashed {
 
 .go-up__btn {
   position: absolute;
-  display: block;
+  display: none;
   bottom: 0;
   right: 15px;
   height: 54px;
