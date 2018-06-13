@@ -1778,6 +1778,12 @@ body {
   background-size: cover;
 }
 
+.volunteer-hero {
+  background: url(assets/media/volunteers.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
 .intro-para {
   color: white;
 }
@@ -2247,6 +2253,14 @@ a.dashed {
     width: 2000px;
     width: 100vw;
   }
+
+  .reveal-primary:before {
+    border-radius: 0px 240px 240px 0px;
+  }
+
+  .reveal-secondary:before {
+    border-radius: 240px 0px 0px 240px;
+  }
 }
 
 .reveal--darken {
@@ -2277,7 +2291,7 @@ a.dashed {
 }
 
 .reveal--secondary:before {
-  background-color: #F5BD56;
+  background-color: #e7e8ea;
 }
 
 .reveal--pink:before {
