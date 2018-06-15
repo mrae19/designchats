@@ -1761,6 +1761,10 @@ body {
   margin-top: 0px;
 }
 
+.black {
+  background-color:black!important;
+}
+
 #kitchener .site-header__wrap {
   background-color: transparent !important;
   color: white;
@@ -4217,7 +4221,8 @@ div.mce_inline_error {
 }
 
 .color--tertiary {
-  color: #EFF0F1;
+  /*color: #EFF0F1;*/
+  color:#F41414;
 }
 
 .background-color--tertiary {
